@@ -1,0 +1,12 @@
+# PostgresSql 9.4
+
+# Configuracoes
+ _Acesso local
+ _Usuario de acesso
+ _Senha criptografada MD5
+
+# Base de dados
+ _Tablespabe : beyond
+ _Database: beyondeagro
+
+
