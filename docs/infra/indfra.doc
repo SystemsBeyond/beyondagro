@@ -1,0 +1,22 @@
+# Estrutura de diretorio do projeto.
+
+/projecto/
+   |--api/
+   |    |--resources/
+   |    |index.php
+   |    |.htaccess
+   |
+   |--application/
+   |    |--config/
+   |    |--controllers/
+   |    |--models/
+   |    |--libraries/
+   |    |--views/
+   |    |--(etc... dentro da lógica)
+   |    |.htaccess (deny from all)
+   | 
+   |--public/
+   |--vendor/
+   |
+   |index.php
+   |.htaccess
