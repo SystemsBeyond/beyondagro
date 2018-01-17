@@ -1,0 +1,9 @@
+# Apache
+ Redirecionar site para pasta do projeto.
+
+Alias beyond /opt/beyondagro
+<Directory /opt/beyondagro>
+     Options Indexes FollowSymLinks
+     AllowOverride None
+     Require all granted
+</Directory>

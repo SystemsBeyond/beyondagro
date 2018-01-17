@@ -9,4 +9,10 @@
  _Tablespabe : beyond
  _Database: beyondeagro
 
+# usurio alterar senha
+ALTER USER postgres WITH PASSWORD 'Beyond#2018';
 
+# Criar usuario de trabalho
+CREATE USER beyond NOCREATEDB NOSUPERUSER NOCREATEROLE PASSWORD 'B2018##';
+
+# phppgadmin instalado

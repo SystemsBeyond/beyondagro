@@ -14,7 +14,7 @@
    |    |--views/
    |    |--(etc... dentro da lógica)
    |    |.htaccess (deny from all)
-   | 
+   |
    |--public/
    |--vendor/
    |
