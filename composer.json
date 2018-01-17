@@ -1,0 +1,13 @@
+{
+   "Empresa":"Beyond Systems and Tecnology",
+   "Descricao":"Sistema de controle agropecuario",
+   "Autor":[
+      {
+      "nome":"Jacson Milomem",
+      "email":"systemsbeyond@gmail.com"
+      }
+   ],
+   "require":{
+      "php":">=5.2.8"
+   }
+}
