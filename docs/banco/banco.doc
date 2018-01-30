@@ -1,9 +1,9 @@
 # PostgresSql 9.4
 
 # Configuracoes
- _Acesso local
- _Usuario de acesso
- _Senha criptografada MD5
+ > Acesso local
+ > Usuario de acesso
+ > Senha criptografada MD5
 
 # Base de dados
  _Tablespabe : beyond
@@ -16,3 +16,4 @@ ALTER USER postgres WITH PASSWORD 'Beyond#2018';
 CREATE USER beyond NOCREATEDB NOSUPERUSER NOCREATEROLE PASSWORD 'B2018##';
 
 # phppgadmin instalado
+# pgadmin III instalado

@@ -1,8 +1,25 @@
 # Apache
  Redirecionar site para pasta do projeto.
 
-Alias beyond /opt/beyondagro
+# Site principal
+Alias /beyond /opt/beyondagro
 <Directory /opt/beyondagro>
+     Options Indexes FollowSymLinks
+     AllowOverride None
+     Require all granted
+</Directory>
+
+# Site Aplicacao
+Alias /app.beyond /opt/beyondagro/application
+<Directory /opt/beyondagro/application>
+     Options Indexes FollowSymLinks
+     AllowOverride None
+     Require all granted
+</Directory>
+
+# Site Api rest
+Alias /api.beyond /opt/beyondagro/api
+<Directory /opt/beyondagro/api>
      Options Indexes FollowSymLinks
      AllowOverride None
      Require all granted
