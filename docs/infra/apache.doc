@@ -17,7 +17,7 @@ Alias /app.beyond /opt/beyondagro/application
      Require all granted
 </Directory>
 
-# Site Api rest
+# Site Api rest python / tornado
 Alias /api.beyond /opt/beyondagro/api
 <Directory /opt/beyondagro/api>
      Options Indexes FollowSymLinks
